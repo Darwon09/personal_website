@@ -3,13 +3,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
+import articleImg from "@/components/images/article.png";
 
 export default function ProjectsSection() {
   const projects = [
     {
       title: "Article Semantic Comprehension",
       description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and analytics dashboard.",
-      image: "/src/components/images /article.png",
+      image: articleImg,
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
       demoUrl: "https://devpost.com/software/article-semantic-comprehension",
       githubUrl: "#"

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import aboutImg from "@/components/images/IMG_0062.jpg";
 
 export default function AboutSection() {
   const skills = [
@@ -65,7 +66,7 @@ export default function AboutSection() {
             viewport={{ once: true }}
           >
             <img 
-              src="/src/components/images /IMG_0062.JPG" 
+              src={aboutImg} 
               alt="Modern minimalist workspace with MacBook and monitor" 
               className="rounded-2xl shadow-xl w-3/4 mx-auto object-contain max-h-150"
             />

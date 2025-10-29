@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import headshotImg from "@/components/images/DSCF9565 (1) copy.jpg";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
@@ -90,7 +91,7 @@ export default function HeroSection() {
           >
             <div className="relative">
               <img 
-                src="/src/components/images /DSCF9565 (1) copy.jpg" 
+                src={headshotImg}
                 alt="Professional headshot of Darren" 
                 className="rounded-3xl shadow-2xl w-full max-w-lg mx-auto object-cover aspect-square"
               />
