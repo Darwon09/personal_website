@@ -9,9 +9,9 @@ export default function ProjectsSection() {
   const projects = [
     {
       title: "Article Semantic Comprehension",
-      description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and analytics dashboard.",
+      description: "Articles are often misleading, this Accessibility technology determines bias in language from articles as-well as ensure summarisation",
       image: articleImg,
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      technologies: ["Taipy", "Together ai", "Hume ai", "Python"],
       demoUrl: "https://devpost.com/software/article-semantic-comprehension",
       githubUrl: "#"
     }
