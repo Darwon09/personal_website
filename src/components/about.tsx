@@ -31,7 +31,7 @@ export default function AboutSection() {
             viewport={{ once: true }}
           >
             <p className="text-lg leading-relaxed text-foreground">
-              I'm a student at the University of California, Berkeley, pursuing a B.A. in Computer Science and Data Science going into my senior year. 
+              I'm a student at the University of California, Berkeley, pursuing a B.A. in Computer Science and Data Science. 
               I'm interested in working in many fields wether it be in software engineering, data science, or machine learning.
             </p>
             <p className="text-lg leading-relaxed text-foreground">

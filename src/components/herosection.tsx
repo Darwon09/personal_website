@@ -65,15 +65,8 @@ export default function HeroSection() {
               <span className="animate-pulse text-blue-600">|</span>
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button 
-                size="lg"
-                onClick={() => scrollToSection('contact')}
-                className="bg-linear-to-r from-cyan-500 to-blue-500 text-white font-medium shadow-lg hover:shadow-xl transition-all duration-300"
-              >
-                Get In Touch
-              </Button>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="lg"
                 onClick={() => scrollToSection('projects')}
                 className="font-medium border-2 hover:bg-foreground hover:text-background transition-all duration-300"
